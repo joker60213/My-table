@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Layout } from 'antd';
-import TableComponent from '../table/TableComponent'
+import TableComponent from './components/table'
 
 const { Header, Content } = Layout;
 
