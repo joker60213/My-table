@@ -73,7 +73,7 @@ const TableComponent = () => {
             <h2>Посты</h2>
 
             <Input
-                style={{ marginBottom: '20px', width: '200px' }}
+                className={styles.active}
                 type='number'
                 value={filterId}
                 onChange={handleFilterChange}
